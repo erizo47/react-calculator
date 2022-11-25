@@ -56,7 +56,7 @@ main {
         align-items: center;
         transition: all .6s;     
         svg > g > g{
-            transition: all .8s;
+            transition: all .6s;
             fill: #aaaaaa;
         }
         &.active {         
@@ -130,7 +130,7 @@ main {
 .numpad-board {
     width: 100%;
     height: 60%;
-    transition: all 1.2s;
+    transition: all .6s;
     border-radius:  20px 20px 20px 20px;
     display: flex;
     flex-wrap: wrap;

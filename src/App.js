@@ -53,6 +53,17 @@ function App() {
       setInput(newDisplay)
       console.warn(`Prevent double "-"`)
       
+    } // Next step formula operating from result
+      else if (operator.includes(value) && result !== 0) {
+      newDisplay = result.slice(1, result.length)
+      setInput(newDisplay + value)
+      console.warn(`Next step formula from result`)
+    
+    } // prevent double "."
+      else if (value === "." && newDisplay.indexOf('.') > 0) {
+      setInput(newDisplay)
+      console.warn(`Prevent double "."`)
+    
     } // correct decimal separator
       else if (value === "." && input === "0") {
       newDisplay = "0."
@@ -76,7 +87,7 @@ function App() {
         }
         
 
-    } //prevent operator wiil be first sign
+    } //prevent operator will be first sign
       else if (input === '0' &&  value !== "⌫" && !operator.includes(value)) {
       setInput(value)
 
