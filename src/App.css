@@ -28,7 +28,7 @@ main {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  transition: all 1.2s;
+  transition: all 0.6s;
 }
 
 .switcher-theme {
@@ -54,14 +54,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.8s;
+  transition: all 0.6s;
 }
 .switcher-theme .sun svg > g > g {
   transition: all 0.8s;
   fill: #aaaaaa;
 }
 .switcher-theme .sun.active svg > g > g {
-  transition: all 0.8s;
+  transition: all 0.6s;
   fill: #fb9702;
 }
 .switcher-theme .moon {
@@ -71,14 +71,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.8s;
+  transition: all 0.6s;
 }
 .switcher-theme .moon svg > g > g {
-  transition: all 0.8s;
+  transition: all 0.6s;
   fill: #3d3d3d;
 }
 .switcher-theme .moon.active svg > g > g {
-  transition: all 0.8s;
+  transition: all 0.6s;
   fill: #d4e728;
 }
 

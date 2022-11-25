@@ -29,7 +29,7 @@ main {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    transition: all 1.2s;
+    transition: all .6s;
 }
 
 .switcher-theme {
@@ -54,14 +54,14 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: all .8s;     
+        transition: all .6s;     
         svg > g > g{
             transition: all .8s;
             fill: #aaaaaa;
         }
         &.active {         
             svg > g > g{      
-                transition: all .8s;     
+                transition: all .6s;     
                 fill: #fb9702
             }
         }
@@ -73,14 +73,14 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: all .8s;
+        transition: all .6s;
         svg > g > g {
-            transition: all .8s;
+            transition: all .6s;
             fill: #3d3d3d;
         }
         &.active {
             svg > g > g {
-                transition: all .8s;
+                transition: all .6s;
                 fill: #d4e728;          
             }
         }
