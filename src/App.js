@@ -103,7 +103,7 @@ function App() {
 
   return (
     <div className="App">
-     <main>
+     <main className={`main ${darkTheme ? 'dark-theme' : 'light-theme'}`}>
         <div className={`calculator ${darkTheme ? 'dark-theme' : 'light-theme'}`}>
          
           <div className='display-container'>

@@ -16,6 +16,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.6s;
 }
 
 .calculator {
@@ -163,9 +164,13 @@ main {
   box-shadow: none;
 }
 
+.light-theme.main {
+  background: #c4baba;
+}
 .light-theme.calculator {
-  background: rgba(239, 239, 239, 0.9803921569);
-  box-shadow: 5px 5px 25px #000000, -1px -1px 10px rgba(233, 233, 233, 0.8078431373);
+  border: 1px solid #a89f9f;
+  background: linear-gradient(145deg, #b0a7a7, #d2c7c7);
+  box-shadow: 34px 34px 88px #7f7979, -34px -34px 60px #ffffff;
 }
 .light-theme .switcher-theme {
   background: rgba(222, 222, 222, 0.6901960784);
@@ -186,9 +191,13 @@ main {
   color: #76649c;
 }
 
-.dark-theme.calculator {
+.dark-theme.main {
   background: #1F2326;
-  box-shadow: 5px 5px 25px #000000, -1px -1px 20px rgba(116, 116, 116, 0.8078431373), 5px 5px 35px #000000;
+}
+.dark-theme.calculator {
+  border: 1px solid #2f353a;
+  background: linear-gradient(145deg, #1c2022, #212529);
+  box-shadow: 25px 25px 50px #0e1011, -25px -25px 50px #30363b;
 }
 .dark-theme .switcher-theme {
   background: #282d31;
