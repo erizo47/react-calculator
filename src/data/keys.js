@@ -3,7 +3,7 @@ export function Keys () {
         {
             id: 'clear',
             value: 'AC',
-            keyCode: 46,
+            keyCode: 27,
             wide : true,
             operator: true
         },
@@ -16,25 +16,25 @@ export function Keys () {
         {
             id: 'divide',
             value: '/',
-            keyCode: 111,
+            keyCode: 191,
             operator: true
         },
         {
             id: 'seven',
             value: '7',
-            keyCode: 103,
+            keyCode: 55,
             operator: false
         },
         {
             id: 'eight',
             value: '8',
-            keyCode: 104,
+            keyCode: 56,
             operator: false
         },
         {
             id: 'nine',
             value: '9',
-            keyCode: 105,
+            keyCode: 57,
             operator: false
         },
         
@@ -47,43 +47,43 @@ export function Keys () {
         {
             id: 'four',
             value: '4',
-            keyCode: 100,
+            keyCode: 52,
             operator: false
         },
         {
             id: 'five',
             value: '5',
-            keyCode: 101,
+            keyCode: 53,
             operator: false
         },
         {
             id: 'six',
             value: '6',
-            keyCode: 102,
+            keyCode: 54,
             operator: false
         },
         {
             id: 'subtract',
             value: '-',
-            keyCode: 109,
+            keyCode: 189,
             operator: true
         },
         {
             id: 'one',
             value: '1',
-            keyCode: 97,
+            keyCode: 49,
             operator: false
         },
         {
             id: 'two',
             value: '2',
-            keyCode: 98,
+            keyCode: 50,
             operator: false
         },
         {
             id: 'three',
             value: '3',
-            keyCode: 99,
+            keyCode: 51,
             operator: false
         },
         {
@@ -95,19 +95,19 @@ export function Keys () {
         {
             id: 'decimal',
             value: '.',
-            keyCode: 110,
+            keyCode: 190,
             operator: false
         },
         {
             id: 'zero',
             value: '0',
-            keyCode: 96,
+            keyCode: 48,
             operator: false
         },
         {
             id: 'equals',
             value: '=',
-            keyCode: 13,
+            keyCode: 187,
             wide : true,
             operator: true
         }, 
